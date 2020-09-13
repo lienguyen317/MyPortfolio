@@ -20,7 +20,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
-My final project will be a 1 page portfolio with my name and nav bar on the top of the page. Nav bar will include home, about, project and contact. Under the nav bar I want to have my About me section with a to be determine picture background. Under the about me section I will have some of my projects linked there. In the contact info section beneath the project portion, I will have a contact section which I will have my social media links as well as email and phone. I also want to add a box for user to send me a message and submit it straight from the portfolio page. 
+My final project will be a 1 page portfolio with my name and nav bar on the top of the page. Flex Nav bar will include home, about, project and contact. Under the nav bar I want to have my About me section using Grid with a to be determine picture background. Under the about me section I will have some of my projects linked there. In the contact info section beneath the project portion, I will have a contact section which I will have my social media links as well as email and phone number. For the contact info section, I plan to use some animationa and a carousel so users and scroll through on a mobile platform. I also want to add a box for users to send me a message and submit it straight from the portfolio page. 
 
 ## Google Sheet
 
@@ -34,8 +34,8 @@ Here's a [link][1] to my spreadsheet. It is blank at this point in time but I'll
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://res.cloudinary.com/lienguyen317/image/upload/v1599990482/15999904725235310510421002725840_fkcc1r.jpg)
+- [Desktop](https://res.cloudinary.com/lienguyen317/image/upload/v1599990106/15999900890143036030891853422014_bia3el.jpg)
 
 Wireframing Resources:
 
