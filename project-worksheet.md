@@ -20,9 +20,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+My final project will be a 1 page portfolio with my name and nav bar on the top of the page. Nav bar will include home, about, project and contact. Under the nav bar I want to have my About me section with a to be determine picture background. Under the about me section I will have some of my projects linked there. In the contact info section beneath the project portion, I will have a contact section which I will have my social media links as well as email and phone. I also want to add a box for user to send me a message and submit it straight from the portfolio page. 
+
 ## Google Sheet
 
 Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+
+Here's a [link][1] to my spreadsheet. It is blank at this point in time but I'll be adding link to it asap. 
+
+[1]:https://docs.google.com/spreadsheets/d/1WV4cRpi6ixjOczGGXspA5PdM88eqwnyyz-tUAbJmOcY/edit#gid=0
 
 ## Wireframes
 
