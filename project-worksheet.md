@@ -45,7 +45,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://res.cloudinary.com/lienguyen317/image/upload/v1599992626/15999926134042108751568147939277_tgalgj.jpg
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
@@ -61,14 +61,19 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- html 
+- Message box and form
+- Default Css
+- Mobile Css
+- Desktop Css
+- Hamburger Icon
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Projects carousel
+- ajax link to spreadsheet 
+- animation/picture/background for about me section
+- social media icon 
 
 ## Functional Components
 
@@ -79,29 +84,29 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Hamburger | H | 2hr | hr |
+| HTML | H | 3hr | hr | 
+| Adding Form | H | 3hr|  hr | 
+| Default CSS| M | 3hr | hr|
+| Mobile CSS | H | 3hrs|  hr | 
+| Desktop CSS | H | 3hr | hr | hr |
+| Total | H | 17hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Projects carousel | L | 3hr | -hr | hr |
+| ajax link to spreadsheet | L | 2hr | hr |
+| animation/picture/background for about me section | M | 4hr | hr |
+| social media icon  | H | 4hr | -hr | hr |
+| Total | H | 13hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+
+jquery
+
+* ajax link to spreadsheet.
+* form and submission for message box
 
 ## Code Snippet
 
