@@ -84,8 +84,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr |
-| HTML | H | 3hr | hr | 
+| Hamburger | H | 2hr | 1.5hr |
+| HTML | H | 3hr | 3hr | 
 | Adding Form | H | 3hr|  hr | 
 | Default CSS| M | 3hr | hr|
 | Mobile CSS | H | 3hrs|  hr | 
@@ -107,6 +107,11 @@ jquery
 
 * ajax link to spreadsheet.
 * form and submission for message box
+  
+Bootstrap
+
+* nav bar 
+* project cards
 
 ## Code Snippet
 

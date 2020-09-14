@@ -3,26 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Lien's Portfolio</title>
+    <script src="https://kit.fontawesome.com/859b224fa8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-    
-    <h1>LIEN NGUYEN</h1>
-    
-    <nav>
-        <a href ="">About</a>
-        <a href ="">Projects</a>
-        <a href ="">Contact</a>
-    </nav>
+    <!-- bootstrap nav bar, change theme to dark and add fixed-top to make nav bar stay while scrolling -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">LIEN NGUYEN</a>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
     
     <div>
-        <h2>ABOUT ME</h2>
+        <img src="https://images.unsplash.com/photo-1576618567274-80c7d5b6d79f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80" alt="SF landscape" width=100% height="">
+    </div>
+
+    <div>
+        <h2 id= 'aboutMe'>ABOUT ME</h2>
         <p>Self motivated full-stack programmer with the eagerness and ability
         to acquire new and challenging concepts. A forward thinker, who isn’t
         afraid to experiment with contemporary ideas to resolve current issues
@@ -37,11 +57,46 @@
     </div>
   
     <div>
-        <h2>PROJECTS</h2>
+        <h2 id='projects'>PROJECTS</h2>
+        
+
+        
+        <div class="card" style="width: 18rem;">
+            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600093900/Screen_Shot_2020-09-14_at_7.30.52_AM_l4rdvb.png" class="card-img-top" alt="Instagram Quote">
+            <div class="card-body">
+              <h5 class="card-title">Instagram Quote</h5>
+              <p class="card-text">An Instagram quote, created using HTML and CSS.</p>
+              <a href="https://codepen.io/lienguyen317/pen/KKzvyjm" class="btn btn-primary">Codepen</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;"> -->
+            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600094934/Screen_Shot_2020-09-14_at_7.48.06_AM_aspros.png" class="card-img-top" alt="startup matchmaker layout">
+            <div class="card-body">
+              <h5 class="card-title">Startup Matchmaker</h5>
+              <p class="card-text">Barebone website layout re-contructed using HTML and CSS with Flexbox.</p>
+              <a href="https://git.generalassemb.ly/lienguyen317/W01D02-HW/tree/master/startup-matchmaker/starter_code" class="btn btn-primary">GA's GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600117965/Screen_Shot_2020-09-14_at_2.12.17_PM_sloyhy.png" class="card-img-top" alt="Golden Gate Bridge">
+            <div class="card-body">
+              <h5 class="card-title">Golden Gate Bridge</h5>
+              <p class="card-text">Photo of the Golden Gate bridge taken from a light aircraft.</p>
+              <a href="https://www.instagram.com/p/B8tz4qpD8QV/?utm_source=ig_web_copy_link" class="btn btn-primary">Personal-Instagram</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600118649/Screen_Shot_2020-09-14_at_2.23.45_PM_dgzwyu.png" class="card-img-top" alt="Kyoto">
+            <div class="card-body">
+              <h5 class="card-title">Kamo River of Kyoto,Japan</h5>
+              <p class="card-text">Photo of Kamo River during my visit to Japan.</p>
+              <a href="https://www.instagram.com/p/BhYut_vlB8Y/?utm_source=ig_web_copy_link" class="btn btn-primary">Personal-Instagram</a>
+            </div>
+        </div>
     </div>
     
     <div>
-        <h2>CONTACT</h2>
+        <h2 id='contact'>CONTACT</h2>
         <h3>Leave a Message</h3>
         <form>
             <input type="text" name="user" placeholder="Your name"> </br></br>
@@ -53,11 +108,22 @@
 
     <div>
         <h2>SOCIAL MEDIA</h2>
-        
+        <a href="https://www.facebook.com/Li3nNgUy3n317/"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.linkedin.com/in/lien-nguyen-575aba153/"></href><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/wonder317/"><i class="fab fa-instagram-square"></i></a>
+        <a href=""><i class="fab fa-github-square"></i></a>
+        <a href="https://codepen.io/lienguyen317"><i class="fab fa-codepen"></i></a>        
+    </div>
+    <div>
+            <i class="far fa-paper-plane">: lienguyen317@gmail.com</i> </br>
+            <i class="fas fa-mobile-alt">: 415-401-5962</i>
     </div>
     
 
-
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="app.js" charset="utf-8"></script>
 </body>
 </html>
+
+
