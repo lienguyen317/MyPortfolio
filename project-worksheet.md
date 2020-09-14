@@ -26,7 +26,7 @@ My final project will be a 1 page portfolio with my name and nav bar on the top 
 
 Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
 
-Here's a [link][1] to my spreadsheet. It is blank at this point in time but I'll be adding link to it asap. 
+Here's a [link][1] to my spreadsheet. 
 
 [1]:https://docs.google.com/spreadsheets/d/1WV4cRpi6ixjOczGGXspA5PdM88eqwnyyz-tUAbJmOcY/edit#gid=0
 
@@ -45,7 +45,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/lienguyen317/image/upload/v1599992626/15999926134042108751568147939277_tgalgj.jpg
+[Link](https://res.cloudinary.com/lienguyen317/image/upload/v1599992626/15999926134042108751568147939277_tgalgj.jpg)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
