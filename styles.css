@@ -1,0 +1,190 @@
+body {
+    background-color:#253237;
+    color: #FFE6E8;
+    font-family: 'Poiret One';
+    text-align: center;
+}
+
+.aboutMe {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+    text-decoration:underline;
+}
+
+
+/* Give <nav> an id since the given class from bootstrap prevents font color styling */
+#myName {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #94849B;
+}
+
+.navbar{
+    padding:0 10px 0 10px;
+}
+
+.nav-item{
+    /* text-decoration: underline; */
+    font-size: 30px;
+}
+
+/* carousel height adjeusted to 400px min for mobile */
+.d-block {
+    min-height: 300px;
+    max-height: 750px;
+}
+
+.carousel-inner{
+    font-size: 20px;
+    padding: 40px 0 0 0;
+}
+
+.carousel-caption{
+    font-weight: bolder;
+}
+
+.avatar {
+    /* make photo round */
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    box-shadow: 10px 10px 10px #ccc;
+    margin-bottom: 40px;
+}
+
+#projects{
+    display:flex;
+    /* set flex-flow to row wrap for responsive design */
+    flex-flow: row wrap;
+}
+
+.card{
+    background-color: #94849B;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    /* card will have the same heigh, fixed unever cards issue */
+    height: 450px;
+}
+/* adjusting card images to the same height so flex box would look better */
+.card-img-top{
+    height: 230px
+}
+
+
+#contacts{
+    margin-top:40px;
+}
+/* button */
+.btn {
+    background-color:#C8A7A8;
+    border-color:#643F40;
+    color: #415962;
+    box-shadow: 0 3px 6px 0 white;
+}
+
+.userName{
+    width: 40%;
+    max-width: 250px;
+    text-transform: capitalize;
+}
+.userEmail{
+    width: 50%;
+    max-width: 300px;
+    text-transform: lowercase;
+}
+
+.messageBox{
+    width: 70%;
+    max-width: 500px;
+    height: 100px;
+}
+
+input, textarea {
+    box-shadow: 0 3px 6px 0 white;
+    background-color:#C4BCC8;
+}
+
+#socialMedia{
+    margin-top: 20px; 
+}
+
+/* styling social media icon */
+
+.icons {
+    font-size: 60px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.emailPhone{
+    font-size: 25px;
+}
+
+.fab{
+    color:#B3B9BD;
+}
+.fab:hover{
+    color:#E7E5DF;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mobileAboutMe{
+        display: none;
+    }
+    .avatar {
+        width: 240px;
+        height: 260px;
+        margin-bottom: 100px
+    }
+    #contacts {
+        margin-top: 100px;
+    }
+    #socialMedia {
+        margin: 100px 0 100px 0;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .icons{
+        margin:100px 250px;
+        font-size: 80px;
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .emailPhone {
+        display: flex;
+        justify-content: center;
+    }
+    .far {
+        /* space btween email and phone # */
+        margin: 0 10px;
+        /* imported .far was not bold, set to bold so .far is same as .fas  */
+        font-weight: bold;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

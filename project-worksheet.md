@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -84,18 +84,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | 1.5hr |
-| HTML | H | 3hr | 3hr | 
+| Hamburger | H | 2hr | 2hr |
+| HTML | H | 3hr | 4hr | 
 | Adding Form | H | 3hr|  hr | 
-| Default CSS| M | 3hr | hr|
-| Mobile CSS | H | 3hrs|  hr | 
-| Desktop CSS | H | 3hr | hr | hr |
+| Default CSS| M | 3hr | 3hr|
+| Mobile CSS | H | 3hrs|  3hr | 
+| Desktop CSS | H | 3hr | 2hr | hr |
 | Total | H | 17hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Projects carousel | L | 3hr | -hr | hr |
+| About carousel | L | 3hr | 2.5-hr | hr |
 | ajax link to spreadsheet | L | 2hr | hr |
 | animation/picture/background for about me section | M | 4hr | hr |
 | social media icon  | H | 4hr | -hr | hr |
@@ -111,7 +111,7 @@ jquery
 Bootstrap
 
 * nav bar 
-* project cards
+* about me carousel
 
 ## Code Snippet
 
