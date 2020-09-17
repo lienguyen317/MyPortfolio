@@ -23,7 +23,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-Auto">
             <li class="nav-item">
                 <a class="nav-link" href="#carouselExampleCaptions">My Info</a>
             </li>
@@ -95,42 +95,10 @@
     
     <h2>Projects</h2>
     <div id='projects'>
-        <!-- projects using card by bootstrap -->
-        <div class="card" style="width: 20rem;">
-            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600093900/Screen_Shot_2020-09-14_at_7.30.52_AM_l4rdvb.png" class="card-img-top" alt="Instagram Quote">
-            <div class="card-body">
-              <h5 class="card-title">Instagram Quote</h5>
-              <p class="card-text">An Instagram quote, created using HTML and CSS.</p>
-              <a href="https://codepen.io/lienguyen317/pen/KKzvyjm" class="btn btn-primary">Codepen</a>
-            </div>
-        </div>
-        <div class="card" style="width: 20rem;">
-            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600094934/Screen_Shot_2020-09-14_at_7.48.06_AM_aspros.png" class="card-img-top" alt="startup matchmaker layout">
-            <div class="card-body">
-              <h5 class="card-title">Startup Matchmaker</h5>
-              <p class="card-text">Barebone website layout re-contructed using HTML and CSS with Flexbox.</p>
-              <a href="https://git.generalassemb.ly/lienguyen317/W01D02-HW/tree/master/startup-matchmaker/starter_code" class="btn btn-primary">GA's GitHub</a>
-            </div>
-        </div>
-        <div class="card" style="width: 20rem;">
-            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600117965/Screen_Shot_2020-09-14_at_2.12.17_PM_sloyhy.png" class="card-img-top" alt="Golden Gate Bridge">
-            <div class="card-body">
-              <h5 class="card-title">Golden Gate Bridge</h5>
-              <p class="card-text">Photo of the Golden Gate bridge taken from a light aircraft.</p>
-              <a href="https://www.instagram.com/p/B8tz4qpD8QV/?utm_source=ig_web_copy_link" class="btn btn-primary">Personal-Instagram</a>
-            </div>
-        </div>
-        <div class="card" style="width: 20rem;">
-            <img src="https://res.cloudinary.com/lienguyen317/image/upload/v1600118649/Screen_Shot_2020-09-14_at_2.23.45_PM_dgzwyu.png" class="card-img-top" alt="Kyoto">
-            <div class="card-body">
-              <h5 class="card-title">Kamo River of Kyoto,Japan</h5>
-              <p class="card-text">Photo of Kamo River during my visit to Japan.</p>
-              <a href="https://www.instagram.com/p/BhYut_vlB8Y/?utm_source=ig_web_copy_link" class="btn btn-primary">Personal-Instagram</a>
-            </div>
-        </div>
+
     </div>
     
-    <div id='contacts'>
+    <!-- <div id='contacts'>
         <h2 >Contacts</h2>
         <h3>Leave a Message</h3>
         <form>
@@ -139,7 +107,51 @@
             <textarea class="messageBox" type="text" name="message" placeholder="Message..."></textarea> </br></br>
             <button class="btn" type="button">Submit</button>
         </form>
+    </div> -->
+
+
+<!--new form  -->
+  
+  <div #id='contacts'>
+    <div class='keepInTouch'> <h1>Let's keep in touch!</h1></div>
+    <form>
+        <div id='name'>
+          <h2 class='name'>Name</h2>
+          <input class='firstname' type='text' name='first_name'><br>
+          <label class='firstlabel'>First Name</label>
+          <input class='lastname' type='text' name='first_name'>
+          <label class='lastlabel'>Last Name</label>
+        </div>
+        
+        <h2 class='name'>Email</h2>
+        <input class='email' type='text' name='email'>
+
+        <h2 class='name'>Phone</h2>
+        <input class='code' type='text' name='area_code'>
+        <label class='area-code'>Area Code</label>
+        <input class='number' type='text' name='phone'>
+        <label class='phone-number'>Phone Number</label>
+
+        <h2 class='name'>Subject</h2>
+        <select class='option' name='subject'>
+          <option disabled='disabled' selected='selected'>--Chose Option</option>
+          <option>Employment Opportunity</option>
+          <option>Colaboration</option>
+          <option>Networking</option>
+          <option>Questions</option>
+        </select>
+        
+        <h2 class='name'>Message</h2>
+        <textarea class='messageBox' type='text' name='message'></textarea>
+
+        <button type='submit'>Send</button> 
+    </form>  
     </div>
+    
+  </div>
+
+
+
 
     <div id="socialMedia">
         <h2>Social Media</h2>
@@ -149,9 +161,9 @@
             <a href="https://www.instagram.com/wonder317/"><i class="fab fa-instagram-square"></i></a>
             <a href=""><i class="fab fa-github-square"></i></a>
             <a href="https://codepen.io/lienguyen317"><i class="fab fa-codepen"></i></a>    
-        </div>
-            
+        </div>        
     </div>
+    
     <div class=emailPhone>
             <i class="far fa-paper-plane">: lienguyen317@gmail.com</i> </br>
             <i class="fas fa-mobile-alt">: 415-401-5962</i>
@@ -160,7 +172,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="app.js" charset="utf-8"></script>
+    <script src="projectCards.js" charset="utf-8"></script>
 </body>
 </html>
 

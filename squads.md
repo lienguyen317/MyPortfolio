@@ -15,6 +15,7 @@
 - Hannah
 - Sean 
 - Sara 
+- Lien 
 
 ### Stack
 - Leah 
@@ -24,7 +25,6 @@
 - Stasys 
 - Tonimarie 
 - Jake 
-- Lien 
 - Marialaina 
 
 ### Kenny

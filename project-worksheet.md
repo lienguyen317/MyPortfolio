@@ -104,14 +104,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Additional Libraries
 
 jquery
-
-* ajax link to spreadsheet.
+* ajax link to spreadsheet/render html with data retrieved from spreadsheet
 * form and submission for message box
   
 Bootstrap
 
 * nav bar 
 * about me carousel
+* project cards
 
 ## Code Snippet
 

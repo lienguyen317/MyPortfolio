@@ -1,5 +1,5 @@
 body {
-    background-color:#253237;
+    background-color: black;
     color: #FFE6E8;
     font-family: 'Poiret One';
     text-align: center;
@@ -86,8 +86,8 @@ h2 {
     color: #415962;
     box-shadow: 0 3px 6px 0 white;
 }
-
-.userName{
+/* Old form, might remove if new form succeed */
+/* .userName{
     width: 40%;
     max-width: 250px;
     text-transform: capitalize;
@@ -107,7 +107,28 @@ h2 {
 input, textarea {
     box-shadow: 0 3px 6px 0 white;
     background-color:#C4BCC8;
+} */
+
+/* New form */
+#contacts {
+    padding-bottom: 40px;
+    background-image:url('https://images.unsplash.com/photo-1519017828478-ca312238167a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
+    background-size: cover;
 }
+
+.keepInTouch{
+    padding: 20px 0px 20px 0px;
+}
+
+form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
 
 #socialMedia{
     margin-top: 20px; 
@@ -132,7 +153,7 @@ input, textarea {
     color:#E7E5DF;
 }
 
-
+/* responsive design */
 @media only screen and (min-width: 768px) {
     .mobileAboutMe{
         display: none;
