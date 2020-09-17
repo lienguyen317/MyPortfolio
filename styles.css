@@ -1,5 +1,6 @@
+
 body {
-    background-color: black;
+    background-color: black;  
     color: #FFE6E8;
     font-family: 'Poiret One';
     text-align: center;
@@ -54,16 +55,19 @@ h2 {
     height: 160px;
     box-shadow: 10px 10px 10px #ccc;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 #projects{
     display:flex;
     /* set flex-flow to row wrap for responsive design */
     flex-flow: row wrap;
+    margin-bottom: 40px;
 }
 
 .card{
-    background-color: #94849B;
+    background-image: url('https://images.unsplash.com/photo-1585077878664-664221d58071?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2014&q=80');
+    /* background-color: #94849B; */
     margin: auto;
     margin-top: 20px;
     padding: 10px;
@@ -76,9 +80,6 @@ h2 {
 }
 
 
-#contacts{
-    margin-top:40px;
-}
 /* button */
 .btn {
     background-color:#C8A7A8;
@@ -86,8 +87,14 @@ h2 {
     color: #415962;
     box-shadow: 0 3px 6px 0 white;
 }
-/* Old form, might remove if new form succeed */
-/* .userName{
+
+
+.btn:hover{
+    background-color:#735751;
+    border-color: #643F40;
+}
+
+.userName{
     width: 40%;
     max-width: 250px;
     text-transform: capitalize;
@@ -107,35 +114,16 @@ h2 {
 input, textarea {
     box-shadow: 0 3px 6px 0 white;
     background-color:#C4BCC8;
-} */
-
-/* New form */
-#contacts {
-    padding-bottom: 40px;
-    background-image:url('https://images.unsplash.com/photo-1519017828478-ca312238167a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
-    background-size: cover;
 }
 
-.keepInTouch{
-    padding: 20px 0px 20px 0px;
-}
-
-form{
-    margin-top: 40px;
+#contacts{
+    background-image: url('https://images.unsplash.com/photo-1519017828478-ca312238167a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-bottom: 40px;
 }
 
-
-
-
-
-
-#socialMedia{
-    margin-top: 20px; 
-}
-
 /* styling social media icon */
-
 .icons {
     font-size: 60px;
     display: flex;
@@ -165,6 +153,8 @@ form{
     }
     #contacts {
         margin-top: 100px;
+        padding-top: 100px;
+        padding-bottom:100px;
     }
     #socialMedia {
         margin: 100px 0 100px 0;

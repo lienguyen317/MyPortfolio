@@ -86,20 +86,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 2hr | 2hr |
 | HTML | H | 3hr | 4hr | 
-| Adding Form | H | 3hr|  hr | 
+| Adding Form | H | 3hr|  3hr | 
 | Default CSS| M | 3hr | 3hr|
-| Mobile CSS | H | 3hrs|  3hr | 
-| Desktop CSS | H | 3hr | 2hr | hr |
-| Total | H | 17hrs| hrs |
+| Mobile CSS | H | 3hrs|  4hr | 
+| Desktop CSS | H | 3hr | 2hr | 2hr|
+| Total | H | 17hrs| 18hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| About carousel | L | 3hr | 2.5-hr | hr |
-| ajax link to spreadsheet | L | 2hr | hr |
-| animation/picture/background for about me section | M | 4hr | hr |
-| social media icon  | H | 4hr | -hr | hr |
-| Total | H | 13hrs| hrs |
+| About carousel | L | 3hr | 2.5-hr |
+| ajax link to spreadsheet | L | 2hr | 6hr |
+| animation/picture/background for about me section | M | 4hr | 3hr |
+| social media icon  | H | 4hr | 4hr | 
+| Total | H | 13hrs| 15.5hrs |
 
 ## Additional Libraries
 
@@ -115,16 +115,31 @@ Bootstrap
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+This is a part of projectCards.js that I had the most issue with. I had help from Alex and got it resolved. Am proud of it? Not really. But, I do want to put it here so that I can remember how it's written.
+
+After using ajax to get projectArr, I passed it throught the render method to get the project cards to show on my page. I was stuck here for quite a while and was going in the right direction but wasn't so sure of how to write the syntax for assigning values from ajax to an jquery element. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const render = (projectsArr) => {
+    const $project = $('#projects')
+    projectsArr.forEach((project, index)=>{
+		<!-- assign <div class='card'> to $div variable -->
+        const $div = $('<div class="card" style="width: 20rem;">')
+		<!-- use the variable above to assign values to each elements(<img>, <h5>, <p>, <a>) -->
+        $div.html(`<img src="${project.image}" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">${project.title}</h5>
+          <p class="card-text">${project.description}</p>
+          <a href="${project.url}" class="btn btn-primary">Live Project</a>
+        </div>`)
+		<!-- append the project card to the variable $project that <div id='projects'> was assigned to -->
+        $project.append($div)
+    })
 }
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+ I didn't have many issues beside syntax error which was easily spotted. 
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
